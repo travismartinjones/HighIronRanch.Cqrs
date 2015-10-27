@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("HighIronRanch.Cqrs")]
-[assembly: AssemblyDescription("A generic implementation of SimpleCqrsRuntime for github.com/sbalkum/SimpleCQRS, a fork of github.com/tyronegroves/SimpleCQRS.")]
+[assembly: AssemblyTitle("HighIronRanch.Cqrs.Azure.ServiceBus")]
+[assembly: AssemblyDescription("An implementation of ICommandBus and IEventBus on Azure Service Bus for github.com/sbalkum/SimpleCQRS, a fork of github.com/tyronegroves/SimpleCQRS.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Stephen Balkum")]
-[assembly: AssemblyProduct("HighIronRanch.Cqrs")]
+[assembly: AssemblyProduct("HighIronRanch.Cqrs.Azure.ServiceBus")]
 [assembly: AssemblyCopyright("Copyright © 2015 Stephen Balkum")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("3c5de4c8-79ee-456b-8dde-42fdcf937e3d")]
+[assembly: Guid("6159c7e3-46d6-4e06-b5dd-a396b6cd30af")]
 
 // Version information for an assembly consists of the following four values:
 //
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("1.0.0.7")]
+[assembly: AssemblyFileVersion("1.0.0.7")]
