@@ -181,3 +181,6 @@ UpgradeLog*.htm
 
 # Microsoft Fakes
 FakesAssemblies/
+src/HighIronRanch.Cqrs/publish-nuget.bat
+src/HighIronRanch.Cqrs.Azure.ServiceBus/publish-nuget.bat
+src/.vs/
